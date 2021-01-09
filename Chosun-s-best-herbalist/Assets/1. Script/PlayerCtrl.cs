@@ -25,13 +25,12 @@ public class PlayerCtrl : MonoBehaviour
 
     void FixedUpdate()
     {
-        /*
         Vector2 moveVec = _rigidbody.velocity;
 
         // 키보드 떼면 속도 줄어들게 하는거
-        if (Input.GetButtonUp("Horizontal"))
+        if (Input.GetButton("Horizontal"))
             moveVec = new Vector2(moveVec.x * 0.1f, moveVec.y);
-        if (Input.GetButtonUp("Vertical"))
+        if (Input.GetButton("Vertical"))
             moveVec = new Vector2(moveVec.x, moveVec.y * 0.1f);
         
         // 속도가 너무 크면 고정하는거
@@ -42,7 +41,7 @@ public class PlayerCtrl : MonoBehaviour
 
         _rigidbody.velocity = moveVec;
         
-        _rigidbody.AddForce(new Vector2(h, v) * moveSpeed, ForceMode2D.Impulse);*/
-        transform.Translate(new Vector2(h,v) * moveSpeed, Space.Self);
+        _rigidbody.AddForce(new Vector2(h, v) * moveSpeed, ForceMode2D.Impulse);
+        //transform.Translate(new Vector2(h,v) * moveSpeed, Space.Self);
     }
 }
