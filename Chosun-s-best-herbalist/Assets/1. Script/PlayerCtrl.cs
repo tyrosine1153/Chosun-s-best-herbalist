@@ -8,40 +8,55 @@ public class PlayerCtrl : MonoBehaviour
 {
     private float h;
     private float v;
-    private Rigidbody2D _rigidbody;
+    private bool hDown, vDown, hUp, vUp; 
+    private Vector2 _moveVec;
+    private bool _isHorizonmove;
+
+    private Animator _animator;
+    
     public float moveSpeed;
-    public float maxSpeed;
 
     void Start()
     {
-        _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         h = Input.GetAxisRaw("Horizontal");
         v = Input.GetAxisRaw("Vertical");
+
+        Debug.Log(h + ", " + v);
+
+        hDown = Input.GetButtonDown("Horizontal");
+        vDown = Input.GetButtonDown("Vertical");
+        hUp = Input.GetButtonUp("Horizontal");
+        vUp = Input.GetButtonUp("Vertical");
+
+        if (hDown || vUp)
+            _isHorizonmove = true;
+        else if (vDown || hUp)
+            _isHorizonmove = false;
+
+        if (_animator.GetInteger("hAxisRaw") != (int) h)
+        {
+            _animator.SetInteger("hAxisRaw", (int) h);
+            _animator.SetBool("isChanged", true);
+        }
+        else if (_animator.GetInteger("vAxisRaw") != (int) v)
+        {
+            _animator.SetInteger("vAxisRaw", (int) v);
+            _animator.SetBool("isChanged", true);
+        }
+        else
+        {
+            _animator.SetBool("isChanged", false);
+        }
     }
 
     void FixedUpdate()
     {
-        Vector2 moveVec = _rigidbody.velocity;
-
-        // 키보드 떼면 속도 줄어들게 하는거
-        if (Input.GetButton("Horizontal"))
-            moveVec = new Vector2(moveVec.x * 0.1f, moveVec.y);
-        if (Input.GetButton("Vertical"))
-            moveVec = new Vector2(moveVec.x, moveVec.y * 0.1f);
-        
-        // 속도가 너무 크면 고정하는거
-        if (math.abs(moveVec.x) > maxSpeed)
-            moveVec = new Vector2(maxSpeed * (moveVec.x > 0 ? 1 : -1), moveVec.y);
-        if (math.abs(moveVec.y) > maxSpeed)
-            moveVec = new Vector2(moveVec.x, maxSpeed * (moveVec.y > 0 ? 1 : -1));
-
-        _rigidbody.velocity = moveVec;
-        
-        _rigidbody.AddForce(new Vector2(h, v) * moveSpeed, ForceMode2D.Impulse);
-        //transform.Translate(new Vector2(h,v) * moveSpeed, Space.Self);
+        _moveVec = _isHorizonmove ? new Vector2(h, 0) : new Vector2(0, v);
+        transform.Translate(_moveVec * moveSpeed, Space.Self);
     }
 }

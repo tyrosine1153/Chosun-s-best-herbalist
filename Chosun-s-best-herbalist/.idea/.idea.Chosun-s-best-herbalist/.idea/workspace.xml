@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e2dd1f-92d7-43da-9f76-ed38b1df0567" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Sister.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Sister.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/1. Script/MapData.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" />
       </list>
@@ -99,7 +99,7 @@
       <updated>1610116355224</updated>
       <workItem from="1610116363776" duration="9686000" />
       <workItem from="1610190971913" duration="688000" />
-      <workItem from="1610200294273" duration="852000" />
+      <workItem from="1610200294273" duration="12667000" />
     </task>
     <servers />
   </component>
