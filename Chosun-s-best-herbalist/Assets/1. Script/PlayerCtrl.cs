@@ -11,8 +11,8 @@ public class PlayerCtrl : MonoBehaviour
     private bool hDown, vDown, hUp, vUp; 
     private Vector2 _moveVec;
     private bool _isHorizonmove;
-
     private Animator _animator;
+    private Vector3 rayVec;
     
     public float moveSpeed;
 
@@ -52,11 +52,23 @@ public class PlayerCtrl : MonoBehaviour
         {
             _animator.SetBool("isChanged", false);
         }
+
+        if (hDown)
+            rayVec = new Vector3(h, 0,0);
+        else if (vDown)
+            rayVec = new Vector3(0, v, 0);
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+
+        }
     }
 
     void FixedUpdate()
     {
         _moveVec = _isHorizonmove ? new Vector2(h, 0) : new Vector2(0, v);
         transform.Translate(_moveVec * moveSpeed, Space.Self);
+        
+        Debug.DrawRay();
     }
 }

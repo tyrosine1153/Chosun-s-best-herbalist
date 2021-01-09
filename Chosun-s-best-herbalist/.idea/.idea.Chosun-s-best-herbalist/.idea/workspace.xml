@@ -22,11 +22,16 @@
     <list default="true" id="36e2dd1f-92d7-43da-9f76-ed38b1df0567" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Script/MapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/MapData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/1. Script/HerbData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/ed/88a9c046/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Study_etc/Unity기초/DummyProject2/Assets/3. Script/PlayerCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/8a/4ab74e33/Single.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,6 +51,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/1. Script/HerbData.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/MapData.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" />
@@ -58,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -99,7 +107,7 @@
       <updated>1610116355224</updated>
       <workItem from="1610116363776" duration="9686000" />
       <workItem from="1610190971913" duration="688000" />
-      <workItem from="1610200294273" duration="12667000" />
+      <workItem from="1610200294273" duration="17913000" />
     </task>
     <servers />
   </component>
@@ -124,6 +132,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610221951998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610221951998" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610118678658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

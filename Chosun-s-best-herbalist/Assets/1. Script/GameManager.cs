@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public int characterLevel;
     public int characterExperience;
     private readonly int[] _levelStep = new int[] { };
-    public Dictionary<int, int> itemCount;
+    public Dictionary<int, int> inventory;
 
     public int questStep;
 
@@ -38,16 +38,28 @@ public class GameManager : MonoBehaviour
         InitGame();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Debug.Log("asdf");
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Debug.Log("asdf");
+        }
+    }
+
     private void InitGame()
     {
         characterHP = 10;
         characterMoney = 0;
         characterLevel = 1;
         characterExperience = 0;
-        itemCount = new Dictionary<int, int>();  // 아이템 아이디, 수
-        itemCount.Add(1, 0);
-        itemCount.Add(2, 0);
-        itemCount.Add(3, 0);
+        inventory = new Dictionary<int, int>();  // 아이템 아이디, 수
+        inventory.Add(1, 0);
+        inventory.Add(2, 0);
+        inventory.Add(3, 0);
         
         questStep = 0;
     }
