@@ -9,11 +9,12 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
     public int characterHP;
-    public int characterMoney;
     public int characterLevel;
     public int characterExperience;
-    private readonly int[] _levelStep = new int[] { };
+    public int characterMoney;
+    private readonly int[] _levelStep = new int[] { 10, 20, 30, 40};
     public Dictionary<int, int> inventory;
+    public bool isAction;
 
     public int questStep;
 
@@ -29,14 +30,11 @@ public class GameManager : MonoBehaviour
         }
 
         Debug.Log("GameManager 생성");
+        
+        InitGame();
     }
 
     public static GameManager Instance => instance ? instance : null;
-
-    private void Start()
-    {
-        InitGame();
-    }
 
     private void Update()
     {
@@ -60,6 +58,7 @@ public class GameManager : MonoBehaviour
         inventory.Add(1, 0);
         inventory.Add(2, 0);
         inventory.Add(3, 0);
+        isAction = false;
         
         questStep = 0;
     }
@@ -68,5 +67,21 @@ public class GameManager : MonoBehaviour
     public void ChanegeScene(int sceneNumber)
     {
         SceneManager.LoadScene(sceneNumber);
+    }
+
+    public void GetItem(GameObject Item)
+    {
+        if (Item.CompareTag("Herb"))
+        {
+            HerbData herbData = Item.GetComponent<HerbData>();
+            inventory[herbData.herbId]++;
+        }
+
+        isAction = false;
+    }
+
+    void GetExp(int point)
+    {
+        // Do Something
     }
 }

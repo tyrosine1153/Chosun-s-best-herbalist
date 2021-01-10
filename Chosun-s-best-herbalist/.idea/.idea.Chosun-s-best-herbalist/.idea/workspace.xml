@@ -22,15 +22,14 @@
     <list default="true" id="36e2dd1f-92d7-43da-9f76-ed38b1df0567" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chosun-s-best-herbalist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/1. Home.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/Stage/2. Ground.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/1. Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. Scenes/1. Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. Scenes/2. Ground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. Scenes/2. Ground.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Script/MapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/MapData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Next.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Herb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Herb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +41,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/1. Script/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1. Script/HerbData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/ed/88a9c046/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Study_etc/Unity기초/DummyProject2/Assets/3. Script/PlayerCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/8a/4ab74e33/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Platformgame-QSS/New_PlatformGame/Assets/1. Script/PlayerCtrlToDemo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/1. Script/Quest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/1. Script/HerbData.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/MapData.cs" />
-        <option value="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/1. Script/Quest.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Script/PlayerCtrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/1. Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/1. Script/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +110,7 @@
       <updated>1610116355224</updated>
       <workItem from="1610116363776" duration="9686000" />
       <workItem from="1610190971913" duration="688000" />
-      <workItem from="1610200294273" duration="17913000" />
+      <workItem from="1610200294273" duration="31567000" />
     </task>
     <servers />
   </component>

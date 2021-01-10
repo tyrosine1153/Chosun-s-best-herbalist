@@ -11,6 +11,8 @@
           <e p="HerbData.cs" t="Include" />
           <e p="MapData.cs" t="Include" />
           <e p="PlayerCtrl.cs" t="Include" />
+          <e p="Quest.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
         </e>
       </e>
       <e p="Chosun-s-best-herbalist.sln" t="IncludeFlat" />
