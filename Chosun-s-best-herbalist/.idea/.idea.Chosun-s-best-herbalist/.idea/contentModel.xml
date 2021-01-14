@@ -10,8 +10,10 @@
           <e p="GameManager.cs" t="Include" />
           <e p="HerbData.cs" t="Include" />
           <e p="MapData.cs" t="Include" />
+          <e p="NPCData.cs" t="Include" />
           <e p="PlayerCtrl.cs" t="Include" />
           <e p="Quest.cs" t="Include" />
+          <e p="QuestManager.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
       </e>

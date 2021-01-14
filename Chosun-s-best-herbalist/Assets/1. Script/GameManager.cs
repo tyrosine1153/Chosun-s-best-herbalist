@@ -54,10 +54,7 @@ public class GameManager : MonoBehaviour
         characterMoney = 0;
         characterLevel = 1;
         characterExperience = 0;
-        inventory = new Dictionary<int, int>();  // 아이템 아이디, 수
-        inventory.Add(1, 0);
-        inventory.Add(2, 0);
-        inventory.Add(3, 0);
+        inventory = new Dictionary<int, int> {{1, 0}, {2, 0}, {3, 0}}; // 아이템 아이디, 수
         isAction = false;
         
         questStep = 0;
@@ -82,6 +79,12 @@ public class GameManager : MonoBehaviour
 
     void GetExp(int point)
     {
-        // Do Something
+        characterExperience += point;
+        if (characterExperience > _levelStep[characterLevel - 1])
+        {
+            characterLevel++;
+            // 대충 레벨 오른 UI
+        }
+        // 대충 경험치 오른 UI
     }
 }

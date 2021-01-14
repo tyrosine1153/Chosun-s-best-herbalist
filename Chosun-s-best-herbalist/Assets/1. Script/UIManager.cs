@@ -77,7 +77,7 @@ public class UIManager : MonoBehaviour
         transform.GetChild(2).gameObject.SetActive(onMenu);
     }
 
-    public void Inventory()
+    private void Inventory()
     {
         if(onInven)  // Exit Action
         {
