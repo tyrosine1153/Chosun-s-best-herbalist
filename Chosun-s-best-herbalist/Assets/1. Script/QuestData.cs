@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-public class Quest
+public class QuestData
 {
     private int questType;  // 퀘스트 조건
     public int number;  // 퀘스트 번호(순서)
