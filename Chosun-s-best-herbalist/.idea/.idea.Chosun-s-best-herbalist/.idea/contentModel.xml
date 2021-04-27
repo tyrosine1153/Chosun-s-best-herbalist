@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\jungm\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jungm\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Chosun-s-best-herbalist.-806046503.00" t="ExcludeRecursive" />
-    <e p="C:\Users\jungm\Desktop\GitHub\Chosun-s-best-herbalist\Chosun-s-best-herbalist" t="IncludeRecursive">
+    <e p="C:\Users\jungm\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Chosun-s-best-herbalist.2110628147.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\Chosun-s-best-herbalist\Chosun-s-best-herbalist" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="1. Script" t="Include">
           <e p="GameManager.cs" t="Include" />
           <e p="HerbData.cs" t="Include" />
+          <e p="ItemData.cs" t="Include" />
           <e p="MapData.cs" t="Include" />
           <e p="NPCData.cs" t="Include" />
           <e p="PlayerCtrl.cs" t="Include" />
-          <e p="Quest.cs" t="Include" />
+          <e p="QuestData.cs" t="Include" />
           <e p="QuestManager.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
