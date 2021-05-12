@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-// Next
-public class NextData
+// Next Object
+public class NextData : MonoBehaviour
 {
     [SerializeField] private int nextSceneNumber;
     [SerializeField] private int admissionLevel;

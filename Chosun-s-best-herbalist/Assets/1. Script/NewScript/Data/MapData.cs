@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace _1._Script.NewScript
 {
-    // Create Map obj data
-    // Map Data
-    public class MapData
+    // Create Map obj with this data
+    // Map Data Object
+    public class MapData : MonoBehaviour
     {
         enum AreaIndex
         {
