@@ -16,7 +16,7 @@ public class MapManager : MonoBehaviour
         
     }
     
-    // 약초 생성하는 코드
+    // 약초 동적 생성하는 코드
 
     // Next와 닿았을때 Next에 입력된 정보대로 이동하는 함수
     void NextScene(Collider2D col)
@@ -26,7 +26,7 @@ public class MapManager : MonoBehaviour
             return;
 
         NextData coll = col.GetComponent<NextData>();
-        if (PlayerInfo.Instance.admissionLevel >= coll.AdmissionLevel)
+        if (PlayerInfo.Instance.AdmissionLevel >= coll.AdmissionLevel)
         {
             SceneManager.LoadScene(coll.NextSceneNumber);
         }

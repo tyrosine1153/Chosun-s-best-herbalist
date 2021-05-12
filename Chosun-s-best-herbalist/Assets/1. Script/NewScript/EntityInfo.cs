@@ -13,7 +13,7 @@ public class EntityInfo
         Food_0 = 20
     }
     
-    public static ItemIndex randomHerb()
+    public static ItemIndex RandomHerb()
     {
         int result = Random.Range(0, 3);
 
