@@ -17,10 +17,7 @@ public class PlayerInfo : Singleton<PlayerInfo>
 
     void Start()
     {
-        level = 1;
-        experience = 0;
-        stamina = 100;
-        admissionLevel = 0;
+        InitInfo();
     }
     
     // 경험치 상승
@@ -31,5 +28,13 @@ public class PlayerInfo : Singleton<PlayerInfo>
         {
             level++;
         }
+    }
+
+    private void InitInfo()
+    {
+        level = 1;
+        experience = 0;
+        stamina = 100;
+        admissionLevel = 0;
     }
 }
