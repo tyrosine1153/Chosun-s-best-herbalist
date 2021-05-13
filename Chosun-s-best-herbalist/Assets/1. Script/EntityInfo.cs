@@ -4,6 +4,7 @@ public class EntityInfo
 {
     public enum ItemIndex
     {
+        Null = -1,
         Sys_0 = 00,
         
         Herb_0 = 10,
