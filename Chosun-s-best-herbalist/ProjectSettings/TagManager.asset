@@ -9,6 +9,8 @@ TagManager:
   - Road
   - Next
   - Herb
+  - MapObject
+  - MapData
   layers:
   - Default
   - TransparentFX
