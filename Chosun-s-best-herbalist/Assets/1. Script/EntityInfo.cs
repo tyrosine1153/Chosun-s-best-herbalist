@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Item list
 public class EntityInfo
 {
     public enum ItemIndex

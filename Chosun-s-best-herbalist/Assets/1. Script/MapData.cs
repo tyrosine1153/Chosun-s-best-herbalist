@@ -13,10 +13,8 @@ public class MapData : MonoBehaviour
     // private int _mapID;  // 맵 번호
     [SerializeField] private AreaIndex _areaIndex; //지역
 
-    [SerializeField] private EntityInfo.ItemIndex[] _habitat =
+    public EntityInfo.ItemIndex[] habitat =
     {
-        EntityInfo.ItemIndex.Herb_0,
-        EntityInfo.ItemIndex.Herb_1,
-        EntityInfo.ItemIndex.Herb_2
+        EntityInfo.ItemIndex.Herb_0
     }; // 서식 약초
 }
